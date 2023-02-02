@@ -254,10 +254,7 @@ flex-grow: 0;
     
     display: flex;
     
-    border-radius: 32px;
-  
 
-    /* Inside auto layout */
 
     
 
@@ -266,15 +263,8 @@ flex-grow: 0;
 
 .img4{
     
-
-    
-    border-radius: 32px;
-   
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    border-radius: 5%;
+ 
     
 }
 
@@ -331,7 +321,7 @@ flex-grow: 0;
 .hiw_info{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 0px;
     gap: 64px;
 
@@ -357,7 +347,7 @@ flex-grow: 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height, or 133% */
+
 
     display: flex;
     align-items: center;
@@ -365,12 +355,6 @@ flex-grow: 0;
 
     color: #000000;
 
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .hiw_desc{
@@ -390,11 +374,6 @@ flex-grow: 0;
     color: #000000;
 
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .frame{
@@ -426,20 +405,46 @@ flex-grow: 0;
 .number{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 0px;
     gap: 10px;
 
     
+}
 
-  
+.txt1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
 
 
-    /* Inside auto layout */
+    display: flex;
+    align-items: center;
+}
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.number_img{
+    /* //position: absolute; */
+
+    top: 0px;
+}
+
+.txt2{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
 }
 
 .input_general{
