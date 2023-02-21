@@ -1,0 +1,148 @@
+.header {
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+p{
+    font-size: 16px;
+    font-weight: 500;
+}
+textarea{
+    resize: none;
+    border-color: transparent;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 13px 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container{
+    margin: 80px;
+}
+.new-task-wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    top: 12%;
+    right: 6%;
+}
+.new-task{
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    width: 268px;
+    padding: 16px;
+    margin-right: 25px;
+}
+.hidden{
+    visibility: hidden;
+}
+.new-task-desc{
+    font-weight: 700;
+    margin-top: 0;
+}
+.new-task-btn{
+    background-color: rgb(8, 30, 52);
+    padding: 11px 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.new-task-btn:hover{
+    background: rgba(8, 30, 52, 0.42);
+}
+.fa-flag:hover{
+    color: gray;
+}
+.switcher-btn{
+    width: 86px;
+    background-color: rgba(8, 30, 52, 0.05);
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #081E34;
+    border: none;
+    border-radius: 100px;
+    margin-right: 16px;
+    margin-top: 60px;
+}
+.switcher-btn:hover, .active{
+    background-color: rgba(8, 30, 52, 0.42);
+    color: white;
+    font-weight: 700;
+}
+.filter-name{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+hr{
+    border: 2px solid rgba(8, 30, 52, 0.1);
+}
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+.todo-item{
+    display: flex;
+    margin-top: 10px;
+}
+.crossed{
+    text-decoration: line-through;
+    color: gray;
+}
+input[type='checkbox'] {
+    margin-right: 8px;
+    accent-color: #712FFF;
+}
+.vert-dots{
+    font-weight: 900;
+    font-size: 16px;
+    color: grey;
+}
+.vert-dots-btn{
+    border: none;
+    margin-right: 5px;
+}
+.delete-modal{
+    width: 240px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+.trash-btn{
+    border: none;
+    background-color: #E4E6E7;
+    margin-top: 10px;
+    padding-top: 7px;
+}
+.space{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hidden-no-place{
+    display: none;
+}
+footer{
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p {
+    font-size: 14px;
+    color: #081E34;
+}
+.underline{
+    text-decoration: underline;
+}
+.footer-extra-text{
+    opacity: 0.5;
+}
